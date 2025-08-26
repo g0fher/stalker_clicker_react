@@ -94,6 +94,10 @@ body, .everything {
   transform: scale(0.99);
 }
 
+.upgrade_elem:hover {
+  filter: drop-shadow(2px 2px 0.2em var(--text));
+}
+
 .upgrade_title {
   font-weight: 600;
   font-size: 1.2rem;
@@ -146,7 +150,18 @@ body, .everything {
 }
 
 .clicker_main_area:hover {
-  filter: drop-shadow(0 0 0.5em #211b17);
+  filter: drop-shadow(5px 5px 0.5em #211b17);
+}
+
+.button_1 {
+  background-color: var(--secondary_bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  margin: 5px;
+}
+
+.button_1:hover {
+  filter: drop-shadow(2px 2px 0.2em var(--text));
 }
 
 .click-effect {

@@ -225,14 +225,15 @@ function App() {
             </button>
           </div>
         </div>
-        <button onClick={resetGame}>Скинути прогрес</button>
+        <p>Зміна теми</p>
         <div className="theme-switcher">
-          <button onClick={() => setTheme("light")}>Світла</button>
-          <button onClick={() => setTheme("dark")}>Темна</button>
-          <button onClick={() => setTheme("purple_dark")}>Фіолетова</button>
-          <button onClick={() => setTheme("green_light")}>Зелена</button>
+          <button className='button_1' onClick={() => setTheme("light")}>Світла</button>
+          <button className='button_1' onClick={() => setTheme("dark")}>Темна</button>
+          <button className='button_1' onClick={() => setTheme("purple_dark")}>Фіолетова</button>
+          <button className='button_1' onClick={() => setTheme("green_light")}>Зелена</button>
         </div>
-        <button onClick={() => setCountCoupons((coupons) => coupons + 50000000)}>Активувати подарунковий код [+50млн<span className='coupons_sign'>K</span>]</button>
+        <button className='button_1' onClick={() => setCountCoupons((coupons) => coupons + 50000000)}>Активувати подарунковий код [+50млн<span className='coupons_sign'>K</span>]</button>
+        <button className='button_1' onClick={resetGame}>Скинути прогрес</button>
       </div>
     </>
   )
