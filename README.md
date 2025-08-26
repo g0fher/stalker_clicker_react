@@ -1,6 +1,7 @@
 # React + Vite
 
 This is a simple little stalker-themed clicker created with react and vite and JS
+
 Це простий маленький клікер з темою сталкера, створений за допомогою React, Vite та JS
 
 Demo: [github pages](https://g0fher.github.io/stalker_clicker_react/)
