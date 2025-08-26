@@ -30,7 +30,9 @@ Demo: [github pages](https://g0fher.github.io/stalker_clicker_react/)
 - GitHub Pages
 
 ## How to start localy:
+```console
 git clone https://github.com/g0fher/stalker_clicker_react.git
 cd stalker_clicker_react
 npm install
 npm run dev
+```
